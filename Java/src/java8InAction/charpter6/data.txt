@@ -1,0 +1,5 @@
+{DIET=[[ chicken false 400 MEAT ], [ rice true 350 OTHER ], [ season fruit true 120 OTHER ], [ prawns false 300 FISH ]], NORMAL=[[ beef false 700 MEAT ], [ french fries true 530 OTHER ], [ pizza true 550 OTHER ], [ salmon false 450 FISH ]], FAT=[[ pork false 800 MEAT ]]}
+{FISH={DIET=[[ prawns false 300 FISH ]], NORMAL=[[ salmon false 450 FISH ]]}, MEAT={DIET=[[ chicken false 400 MEAT ]], NORMAL=[[ beef false 700 MEAT ]], FAT=[[ pork false 800 MEAT ]]}, OTHER={DIET=[[ rice true 350 OTHER ], [ season fruit true 120 OTHER ]], NORMAL=[[ french fries true 530 OTHER ], [ pizza true 550 OTHER ]]}}
+{FISH=2, MEAT=3, OTHER=4}
+{FISH=Optional[[ salmon false 450 FISH ]], MEAT=Optional[[ pork false 800 MEAT ]], OTHER=Optional[[ pizza true 550 OTHER ]]}
+{FISH=[ salmon false 450 FISH ], MEAT=[ pork false 800 MEAT ], OTHER=[ pizza true 550 OTHER ]}
